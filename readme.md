@@ -1,4 +1,6 @@
 # Encoding the measures taken against COVID 2019
+## Introduction
+Here we collect a timeline of all containment and public health measure taken in the course of the covid2019 pandemics. 
 
 ## Data format
 I started by collecting all the data from cantons and from the federal government. I settled on the current csv format:
@@ -18,3 +20,4 @@ I started by collecting all the data from cantons and from the federal governmen
 - Stick to the date format dd.mm.yyyy
 - Use commas as separator 
 - Quote strings containing commas
+- Data in long format: one measure per row. If multiple measures are decided by the same unit at the same time, make multiple entries.
