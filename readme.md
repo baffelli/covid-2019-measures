@@ -4,9 +4,9 @@
 I started by collecting all the data from the canton of Ticino. I settled on the current csv format:
 
 
-| date_implemented | date_lifted | measure | unit | level |
-| -----------------|-------------|----------|------|-------- |
-| date when the measure is implemented | date when the measure is lifted | textual description of the measure | identifier of the administrative unit | level of the administrative unit (canton, city, federal) |
+| date_implemented | date_lifted | measure | unit | level | source |
+| -----------------|-------------|----------|------|-------- | ---- |
+| date when the measure is implemented | date when the measure is lifted | textual description of the measure | identifier of the administrative unit | level of the administrative unit (canton, city, federal) | url of the source of this measure |
 
 
 ## Next steps
