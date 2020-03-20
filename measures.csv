@@ -2,8 +2,8 @@ date_implemented,date_lifted,measure,level,unit
 27.02.2020,,engadin skimarathon cancelled,private,GR
 28.02.2020,15.03.2020,ban on events with more than 1000 persons,federal,CH
 28.02.2020,15.03.2020,for events with less than 1000 persons an evaluation with cantonal authorities is required,federal,CH
-28.02.2020,,no carnival,canton,TI
-28.02.2020,,no ice hockey matches,canton,TI
+28.02.2020,,ban carnival,canton,TI
+28.02.2020,,ban ice hockey matches,canton,TI
 28.02.2020,,ban events larger than 1000 persons,canton,TI
 28.02.2020,,meldepflicht for events smaller than 1000 persons,canton,TI
 28.02.2020,,partial Kurzarbeitszeit,canton,TI
@@ -11,8 +11,8 @@ date_implemented,date_lifted,measure,level,unit
 07.03.2020,,banned events larger  than 150 persons,canton,TI
 07.03.2020,,at risk groups invited to be careful,canton,TI
 07.03.2020,,official BAG flyers must be affixed at entrance of all events,canton,TI
-11.03.2020,29.03.2020,stato di necessità ,canton,TI
-11.03.2020,,civil protection only calls non-medical personell,canton,TI
+11.03.2020,29.03.2020,stato di necessità,canton,TI
+11.03.2020,,civil protection only calls non-medical personel,canton,TI
 11.03.2020,,recommendation to follow hygiene prescriptions,canton,TI
 11.03.2020,,"at risk groups should avoid several activties (childcare, public transport, events)",canton,TI
 11.03.2020,,closure of public places of entertainment and leisure,canton,TI
@@ -40,7 +40,7 @@ date_implemented,date_lifted,measure,level,unit
 15.03.2020,,ban on public funerals,canton,TI
 15.03.2020,29.03.2020,all non-essential stores closed,canton,TI
 15.03.2020,,all other economic activities reduced to the minimum,canton,TI
-17.03.2020,,ban on hopsital and retirement home visits,canton,ZH
+13.03.2020,,ban on hospital and retirement home visits,canton,ZH
 19.03.2020,21.03.2020,all economic and commercial activities closed,canton,TI
 19.03.2020,,SBB greatly reduces train services,federal,CH
 18.03.2020,,all stores must close at 18:00,canton,TI
@@ -48,3 +48,4 @@ date_implemented,date_lifted,measure,level,unit
 18.03.2020,,ban on all public and private events,canton,TI
 21.03.2020,,hospitals cannot perform non-lifesaving or urgent procedure,canton,ZH
 17.03.2020,classification of hospitals in covid and non covid,canton,ZH
+15.03.2020,"Kantonsrat cannot assembly",canton,ZH
