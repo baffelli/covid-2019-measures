@@ -10,6 +10,10 @@ date_implemented,date_lifted,measure,level,unit
 28.02.2020,,meldepflicht for events smaller than 1000 persons,canton,TI
 28.02.2020,,partial Kurzarbeitszeit,canton,TI
 28.02.2020,,canceled Espoprofessioni on 9.03.2020 (Job fair),canton,TI
+28.02.2020,,school ski camps not canceled,canton,NE
+04.03.2020,15.03.2020,ban on all events with more than 500 persons,canton,NE
+04.03.2020,15.03.2020,meldepflicht for events smaller than 500 persons,canton,NE
+04.03.2020,15.03.2020,cancelled school trips and ski camps,canton,NE
 02.03.2020,,Updated BAG information campaign,federal,CH
 03.03.2020,,Testing covered by health insurance,federal,CH
 07.03.2020,,banned events larger than 150 persons,canton,TI
@@ -43,7 +47,7 @@ date_implemented,date_lifted,measure,level,unit
 16.03.2020,,ban on event with more than 100 persons,canton,AG
 16.03.2020,30.04.2020,all non-essential stores and restaurants closed,canton,GR
 16.03.2020,,emergency state declared,canton,VD
-16.03.2020,,ban on event,canton,VD
+16.03.2020,,ban on all events,canton,VD
 16.03.2020,,ban on gathering of more than 10 people,canton,VD
 16.03.2020,,ban all sports that don't allow distancing,canton,VD
 16.03.2020,,ban on religious functions with more than 10 people,canton,VD
@@ -51,6 +55,9 @@ date_implemented,date_lifted,measure,level,unit
 16.03.2020,,companies must force home office whenever possible,canton,VD
 16.03.2020,,companies only need to ask medical certificate after 10 days medical leave,canton,VD
 16.03.2020,,ban on hopsital and retirement home visits,canton,VD
+13.03.2020,30.04.2020,distance teaching,canton,VD
+13.03.2020,30.04.2020,ban on events with more than 50 persons,canton,VD
+13.03.2020,30.04.2020,closure of all leisure and entertainment places,canton,VD
 13.03.2020,,entry ban from high risk countries,federal,CH
 13.03.2020,,event with less than 1000 persons can be held if percautions are taken,federal,CH
 16.03.2020,30.04.2020,event ban for events larger than 100 persons,federal,CH
