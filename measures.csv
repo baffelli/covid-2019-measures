@@ -1,5 +1,6 @@
 date_implemented,date_lifted,measure,level,unit
 27.02.2020,,engadin skimarathon cancelled,private,GR
+27.02.2002,15.03.2020,ban on school trips,canton,GR
 28.02.2020,15.03.2020,ban on events with more than 1000 persons,federal,CH
 28.02.2020,15.03.2020,for events with less than 1000 persons an evaluation with cantonal authorities is required,federal,CH
 28.02.2020,,no carnival,canton,TI
@@ -22,6 +23,16 @@ date_implemented,date_lifted,measure,level,unit
 11.03.2020,,ban events larger than 50 persons,canton,TI
 11.03.2020,,schools stay open,canton,TI
 12.03.2020,29.03.2020,post-obligatory schools close,canton,TI
+13.03.2020,30.04.2020,ausserordentliche Lage,canton,GR
+14.03.2020,30.04.2020,event ban for events larger than 50 persons,canton,GR
+14.03.2020,30.04.2020,ban for religious functions larger than 50 persons,canton,GR
+14.03.2020,30.04.2020,ban on hopsital and retirement home visits,canton,GR
+14.03.2020,30.04.2020,closure of all leisure and entertainment places,canton,GR
+14.03.2020,30.04.2020,restaurants and hotels can open if respecting hygiene and distance guidelines,GR
+16.03.2020,30.04.2020,ski areas must close,GR
+14.03.2020,,hospitals cannot perform non-lifesaving or urgent procedure,canton,GR
+16.03.2020,30.04.2020,no physical teaching in secondary and tertiary schools,GR
+16.03.2020,30.04.2020,civil service employees must work from home when possible,GR
 13.03.2020,,entry ban from high risk countries, federal,CH
 13.03.2020,,event with less than 1000 persons can be held if percautions are taken,federal,CH
 16.03.2020,30.04.2020,event ban for events larger than 100 persons,federal,CH
