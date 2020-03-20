@@ -1,4 +1,5 @@
 date_implemented,date_lifted,measure,level,unit
+27.02.2020,,Start BAG information campaign,federal,CH
 27.02.2020,,engadin skimarathon cancelled,private,GR
 27.02.2002,15.03.2020,ban on school trips,canton,GR
 28.02.2020,15.03.2020,ban on events with more than 1000 persons,federal,CH
@@ -9,10 +10,13 @@ date_implemented,date_lifted,measure,level,unit
 28.02.2020,,meldepflicht for events smaller than 1000 persons,canton,TI
 28.02.2020,,partial Kurzarbeitszeit,canton,TI
 28.02.2020,,canceled Espoprofessioni on 9.03.2020 (Job fair),canton,TI
-07.03.2020,,banned events larger  than 150 persons,canton,TI
+02.03.2020,,Updated BAG information campaign,federal,CH
+03.03.2020,,Testing covered by health insurance,federal,CH
+07.03.2020,,banned events larger than 150 persons,canton,TI
 07.03.2020,,at risk groups invited to be careful,canton,TI
 07.03.2020,,official BAG flyers must be affixed at entrance of all events,canton,TI
-11.03.2020,29.03.2020,stato di necessità ,canton,TI
+09.03.2020,,pre-triage at hospital entrance,canton,SH
+11.03.2020,29.03.2020,stato di necessità,canton,TI
 11.03.2020,,civil protection only calls non-medical personell,canton,TI
 11.03.2020,,recommendation to follow hygiene prescriptions,canton,TI
 11.03.2020,,"at risk groups should avoid several activties (childcare, public transport, events)",canton,TI
@@ -30,11 +34,24 @@ date_implemented,date_lifted,measure,level,unit
 14.03.2020,30.04.2020,closure of all leisure and entertainment places,canton,GR
 14.03.2020,30.04.2020,restaurants and hotels can open if respecting hygiene and distance guidelines,canton,GR
 16.03.2020,30.04.2020,ski areas must close,canton,GR
+16.03.2020,30.04.2020,swiss army stops recruitment,federal,CH
 14.03.2020,,hospitals cannot perform non-lifesaving or urgent procedure,canton,GR
 16.03.2020,30.04.2020,no physical teaching in secondary and tertiary schools,canton,GR
 16.03.2020,30.04.2020,civil service employees must work from home when possible,canton,GR
+16.03.2020,,school closed,canton,AG
+16.03.2020,,avoid all necessary tranposrt,federal,CH
+16.03.2020,,ban on event with more than 100 persons,canton,AG
 16.03.2020,30.04.2020,all non-essential stores and restaurants closed,canton,GR
-13.03.2020,,entry ban from high risk countries, federal,CH
+16.03.2020,,emergency state declared,canton,VD
+16.03.2020,,ban on event,canton,VD
+16.03.2020,,ban on gathering of more than 10 people,canton,VD
+16.03.2020,,ban all sports that don't allow distancing,canton,VD
+16.03.2020,,ban on religious functions with more than 10 people,canton,VD
+16.03.2020,,closure of all non necessary shops,canton,VD
+16.03.2020,,companies must force home office whenever possible,canton,VD
+16.03.2020,,companies only need to ask medical certificate after 10 days medical leave,canton,VD
+16.03.2020,,ban on hopsital and retirement home visits,canton,VD
+13.03.2020,,entry ban from high risk countries,federal,CH
 13.03.2020,,event with less than 1000 persons can be held if percautions are taken,federal,CH
 16.03.2020,30.04.2020,event ban for events larger than 100 persons,federal,CH
 16.03.2020,30.04.2020,"restaurants, nightclubs and bars cannot host more than 50 persons",federal,CH
@@ -43,6 +60,7 @@ date_implemented,date_lifted,measure,level,unit
 17.03.2020,30.04.2020,closure of non necessary stores,federal,CH
 17.03.2020,30.04.2020,explicit social distancing,federal,CH
 17.03.2020,30.04.2020,event ban,federal,CH
+19.03.2020,,construction work can stay open,canton,AG
 13.03.2020,,"the cantons must provide information on hopspital beds, ICU, medical material etc",federal,CH
 14.03.2020,,"the use of eye protective gear is recommended",federal,CH
 14.03.2020,,"the use of surgical masks is recommended for all medical and care personel",federal,CH
@@ -66,3 +84,7 @@ date_implemented,date_lifted,measure,level,unit
 17.03.2020,,classification of hospitals in covid and non covid,canton,ZH
 17.03.2020,,"hospitals must train their staff in intensive care",canton,ZH
 17.03.2020,,"special precautions (bodybag) during the burial of covid2019 patients",canton,ZH
+17.03.2020,,Ban gatherings of more than 5 people,canton,JU
+19.03.2020,,Exit restriction for people over 65,canton,UR
+20.03.2020,,city of Zürich closes parks,city,Zürich
+
