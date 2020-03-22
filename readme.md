@@ -13,7 +13,7 @@ I started by collecting all the data from cantons and from the federal governmen
 
 ## Next steps
 - add measures for all cantons and federal and city level measures.
-- code them according to general categories (Veranstaltungsverbot, ...) according to Art. 40 of the [Epiemiegesetzt](https://www.admin.ch/opc/de/classified-compilation/20071012/index.html#a40)
+- code them according to general categories (Veranstaltungsverbot, ...) according to Art. 40 of the [Epiemiegesetz](https://www.admin.ch/opc/de/classified-compilation/20071012/index.html#a40)
 
 ## How to contribute
 - Create a pull request and add a separate csv with the data you intend to add. -
@@ -21,3 +21,4 @@ I started by collecting all the data from cantons and from the federal governmen
 - Use commas as separator 
 - Quote strings containing commas
 - Data in long format: one measure per row. If multiple measures are decided by the same unit at the same time, make multiple entries.
+- save the file in data
