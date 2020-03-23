@@ -15,7 +15,27 @@ I started by collecting all the data from cantons and from the federal governmen
 - add measures for all cantons and federal and city level measures.
 - code them according to general categories (Veranstaltungsverbot, ...) according to Art. 40 of the [Epiemiegesetz](https://www.admin.ch/opc/de/classified-compilation/20071012/index.html#a40)
 
+## Missing Entities
+- [x] BE
+- [ ] TG
+- [ ] VS
+- [ ] SH
+- [x] AG
+- [x] LU
+- [ ] OW
+- [ ] NW
+- [x] UR
+- [ ] AR
+- [ ] AI
+- [ ] GE
+- [ ] NE
+- [x] SO
+- [x] JU
+- [ ] Cities
+- [ ] Private measures (Events, companies, ...)
+- [ ] Federal measures after 20.03.2020
 ## How to contribute
+- Select one of the missing entities
 - Create a pull request and add a separate csv with the data you intend to add. -
 - Stick to the date format dd.mm.yyyy
 - Use commas as separator 
