@@ -29,7 +29,7 @@ The data _must_ be stored in *long* and *tidy* format: if multiple measures for 
 - [x] BE
 - [ ] TG
 - [ ] VS
-- [ ] SH
+- [X] SH
 - [x] AG
 - [x] LU
 - [ ] OW
