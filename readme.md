@@ -1,27 +1,31 @@
 # Encoding the measures taken against COVID 2019
 ## Introduction
-Here we collect a timeline of all containment and public health measure taken in the course of the covid2019 pandemics. 
+Here we collect a timeline of all containment and public health measure taken in the course of the covid2019 pandemics. This is not of immediate use but we believe it will be very useful for future studies on the effect of different control measures. 
+We know this is boring work, but we are grateful to all contributors even if they only contributed to one or two rows of data.
 
 ## Data format
-I started by collecting all the data from cantons and from the federal government. I settled on the current csv format:
+To collect the measures, we settled a simple (long) csv format:
 
 
 | date_implemented | date_lifted | measure | unit | level | source |
 | -----------------|-------------|----------|------|-------- | ---- |
 | date when the measure is implemented | date when the measure is lifted | textual description of the measure | identifier of the administrative unit | level of the administrative unit (canton, city, federal) | url of the source of this measure |
 
-"unit" should be one of the following: 
-- "federal" for federal level measures
-- "canton" for cantonal measures
-- "city" for measures taken by municipalities
-- "private" for measures taken by businesses, events and other organisations
+The data _must_ be stored in *long* and *tidy* format: if multiple measures for the same entities are introduced at the same data, repeated entries must be created.
 
+*unit* should take one of the following values: 
+- *federal* for federal level measures
+- *canton* for cantonal measures
+- *city* for measures taken by municipalities
+- *private* for measures taken by businesses, events and other organisations
 
-## Next steps
+## |TODO
+
+### General
 - add measures for all cantons and federal and city level measures.
 - code them according to general categories (Veranstaltungsverbot, ...) according to Art. 40 of the [Epiemiegesetz](https://www.admin.ch/opc/de/classified-compilation/20071012/index.html#a40)
 
-## Missing Entities
+### Missing Entities
 - [x] BE
 - [ ] TG
 - [ ] VS
