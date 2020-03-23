@@ -15,3 +15,5 @@ all_cases <- map(total_urls, read_csv)
 total_cases <- bind_rows(all_cases)
 
 write_csv(total_cases, "data/cases_by_canton.csv")
+
+
