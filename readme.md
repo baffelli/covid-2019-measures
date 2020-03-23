@@ -1,4 +1,4 @@
-# Encoding the measures taken against COVID 2019
+# Collecting and encoding the measures taken against the spread of COVID 2019
 ## Introduction
 Here we collect a timeline of all containment and public health measure taken in the course of the covid2019 pandemics. This is not of immediate use but we believe it will be very useful for future studies on the effect of different control measures. 
 We know this is boring work, but we are grateful to all contributors even if they only contributed to one or two rows of data.
