@@ -1,16 +1,17 @@
-date_implemented, date_lifted, measure, level, unit, source
-26.02.2020, , crisis staff formed, canton, UR, 
-28.02.2020, 15.03.2020, for events with less than 1000 participants a review throug the crisis staff is required, canton, UR, https://www.ur.ch/mmdirektionen/62987
-11.03.2020, , population invited to respect hygiene measures, canton, UR, https://www.ur.ch/mmdirektionen/63371
-13.03.2020, 30.04.2020, ban on visit in hospitals and retirement homes, canton, UR, https://www.ur.ch/mmdirektionen/63554
-17.03.2020, , ausserordentliche Lage declared, canton, UR, https://www.ur.ch/mmregierungsrat/63700
-17.03.2020, , distance learning in schools, canton, UR, https://www.ur.ch/mmregierungsrat/63700
-17.03.2020, , electronic payment recommended, canton ,UR, https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf
-17.03.2020, , keep at least two meters distance, canton ,UR, https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf
-17.03.2020, , avoid meeting groups larger than five persons, canton, UR, https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf
-17.03.2020, , event ban, canton, UR, https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf
-17.03.2020, , all non-necessary stores must close, canton, UR, https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf
-17.03.2020, , ban on religious functions, canton, UR, https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf
-18.03.2020, , population invited to self-isolation in case of symptoms, canton, UR, https://www.ur.ch/mmdirektionen/63802
-23.03.2020, , population invited to use public transport only if strictly necessary, canton, UR, https://www.ur.ch/mmdirektionen/63865
-20.03.2020, 23.03.2020 , movement restrictions for people above 65 years old, canton, UR, https://www.ur.ch/mmdirektionen/63880
+date_implemented,date_lifted,measure,level,unit,source,measure_cat
+2020-02-26,NA,crisis staff formed,canton,UR,NA,NA
+2020-02-28,NA,for events with less than 1000 participants a review throug the crisis staff is required,canton,UR,https://www.ur.ch/mmdirektionen/62987,NA
+2020-03-11,NA,population invited to respect hygiene measures,canton,UR,https://www.ur.ch/mmdirektionen/63371,NA
+2020-03-13,NA,ban on visit in hospitals and retirement homes,canton,UR,https://www.ur.ch/mmdirektionen/63554,NA
+2020-03-17,NA,ausserordentliche Lage declared,canton,UR,https://www.ur.ch/mmregierungsrat/63700,NA
+2020-03-17,NA,distance learning in schools,canton,UR,https://www.ur.ch/mmregierungsrat/63700,NA
+2020-03-17,NA,electronic payment recommended,canton,UR,https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf,NA
+2020-03-17,NA,keep at least two meters distance,canton,UR,https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf,NA
+2020-03-17,NA,avoid meeting groups larger than five persons,canton,UR,https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf,NA
+2020-03-17,NA,event ban,canton,UR,https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf,NA
+2020-03-17,NA,all non-necessary stores must close,canton,UR,https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf,NA
+2020-03-17,NA,ban on religious functions,canton,UR,https://www.ur.ch/_docn/206842/COVID-19-Verordnung_2_des_Bundesrates_Umsetzung_Kanton_Uri.pdf,NA
+2020-03-18,NA,population invited to self-isolation in case of symptoms,canton,UR,https://www.ur.ch/mmdirektionen/63802,NA
+2020-03-23,NA,population invited to use public transport only if strictly necessary,canton,UR,https://www.ur.ch/mmdirektionen/63865,NA
+2020-03-20,NA,movement restrictions for people above 65 years old,canton,UR,https://www.ur.ch/mmdirektionen/63880,NA
+2020-03-19,NA,Exit restriction for people over 65,canton,UR,NA,NA
