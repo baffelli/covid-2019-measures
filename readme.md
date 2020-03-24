@@ -58,7 +58,7 @@ The data _must_ be stored in *long* and *tidy* format: if multiple measures for 
 
 ## How to contribute
 1. Select an entity where data is still missing or incomplete.
-2. Find the correspoding sheet on the collaborative Google Sheet [here](https://drive.google.com/drive/folders/1qy3yExwzflZJKIOcWvhbbhisaWr5qmO5)
+2. Find the correspoding sheet on the collaborative Google Sheet [here](https://drive.google.com/drive/folders/1qy3yExwzflZJKIOcWvhbbhisaWr5qmO5). If the sheet does not exist, create it.
 3. For cantonal level, find the corresponding home page of the cantonal administration where recommendations and orders are published. These are usually published as PDF's under "media announcements / Medienmitteilungen"
 3. Extract the information given in these published orders into the Google sheet. Use the language you are most comfortable with
 Extract the following information:
