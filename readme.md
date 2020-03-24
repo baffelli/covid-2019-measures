@@ -3,6 +3,25 @@
 Here we collect a timeline of all containment and public health measure taken in Switzerland in the course of the COVID2019 pandemics. This is not of immediate use but we believe it will be very percious for future studies on the effect of different control strategies. 
 We know this is boring work, but we are grateful to all contributors even if they only contributed to one or two rows of data.
 
+## Motivation
+The federal council has announced the temporary closure of schools and public places non essential to daily life, ordered the cancellation of mass events and banned the gathering of more than 5 persons. These measures follow -and partially replicate at a federal level- similar measures taken earlier by local authorities and other organisations.  These strict measures are considered necessary to slow the spread of the SARS-CoV-2 virus and to mitigate the effects of  COVID-2019, the disease it causes. 
+
+
+Measuring the effectiveness of these measures is important for multiple reasons. During the emergency, this information helps improve and quickly adapt policies and -more relevant in a political sense- is helpful to convince poplulations that it is necessary to adhere to them and that the policies are effective. Finally, over a longer timespan, these data are of scientific interest for studies in epidemology.
+
+
+
+This evaluation rests on three types of data, all of which is actively collected at the moment:
+
+- The first pillar is data on the number of confirmed cases and on the number of performed tests, patients with severe disease progression and number of recovered patients.  This is part of another [challenge](https://db.schoolofdata.ch/project/73) of this hackathon. This data can be considered the *dependent variable* and can be used directly (with the usual caveats regarding specificity, sensitivity, sampling bias etc.) to measure the effect of the measures.
+- The second pillar is auxiliary information such as data on [mobility](https://db.schoolofdata.ch/project/66), [air quality](https://db.schoolofdata.ch/project/63), mobile phone location data (eg https://github.com/statistikZH/monitoring_covid19/blob/master/Mobility_GooglePopularTimeGraph.md) and data on [consumer behavior](https://db.schoolofdata.ch/project/62). This information doesn't directly correlate with case data, however it can be used to infer the adhesion of the general population to the imposed measures regardless of their disease status.
+- The third pillar -and the main effort spent in this project so far- is the collection of a reliable, machine readable data set on _all_ the measures taken by authorities and organisations to slow the spread of SARS-CoV-2. This data is the independent variable -or regressor- to be used in later modeling attempt.
+
+
+So far the primary outcome of the project has been a crowdsourced collection of all measures taken to slow down the spread of the virus. The data is stored in this repository.
+
+The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (). 
+
 ## Data format
 To collect the measures, we settled a simple (long) csv format:
 
