@@ -1,6 +1,6 @@
-# Collecting and encoding the measures taken against the spread of COVID 2019
+# Collecting and encoding the measures taken against the spread of COVID2019
 ## Introduction
-Here we collect a timeline of all containment and public health measure taken in the course of the covid2019 pandemics. This is not of immediate use but we believe it will be very useful for future studies on the effect of different control measures. 
+Here we collect a timeline of all containment and public health measure taken in Switzerland in the course of the COVID2019 pandemics. This is not of immediate use but we believe it will be very percious for future studies on the effect of different control strategies. 
 We know this is boring work, but we are grateful to all contributors even if they only contributed to one or two rows of data.
 
 ## Data format
@@ -22,14 +22,15 @@ The data _must_ be stored in *long* and *tidy* format: if multiple measures for 
 ## |TODO
 
 ### General
-- add measures for all cantons and federal and city level measures.
-- code them according to general categories (Veranstaltungsverbot, ...) according to Art. 40 of the [Epiemiegesetz](https://www.admin.ch/opc/de/classified-compilation/20071012/index.html#a40)
+- [ ] add measures for all cantons and federal and city level measures.
+- [ ] code them according to general categories (Veranstaltungsverbot, ...) according to Art. 40 of the [Epiemiegesetz](https://www.admin.ch/opc/de/classified-compilation/20071012/index.html#a40)
+- [ ] prepare an interactive visualization of these measures
 
 ### Missing Entities
 - [x] BE
 - [ ] TG
 - [ ] VS
-- [ ] SH
+- [X] SH
 - [x] AG
 - [x] LU
 - [ ] OW
