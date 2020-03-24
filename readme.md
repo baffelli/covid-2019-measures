@@ -25,7 +25,32 @@ The data _must_ be stored in *long* and *tidy* format: if multiple measures for 
 
 - source: paste the URL of the source so that it can be verified
 
-- measure_cat: category of the measure according to the swiss epidemics law. If unsure, leave this field empty.
+- measure_cat: category of the measure according to the swiss epidemics law. If unsure, leave this field empty. 
+
+#### Measure categorization
+To fill the *measure_cat*  column, we propose the following categorization:
+
+| example | category | law article |
+| ------- | -------- | ------------ |
+| Kontake von infiszierten Personen werden auffindig gemacht und benachrichtigt |	contact tracing |	Swiss Epidemics Act	Art. 15 |
+|Personen mit Kontakt zu Erkrankten oder Verdachsfälle müssen in Quarantäne zu Hause oder woanders |	quarantine and self-quarantine |	Swiss Epidemics Act	Art. 35a|
+|Erkrankte Personen müssen zu Hause bleiben oder im Spital isoliert werden	| isolation and self-isolation|	Swiss Epidemics Act	Art. 35b|
+|Veranstaltungen mit mehr als 1000 Personen werden untersagt oder sind bewilligungspflichtig |	restriction of events	| Swiss Epidemics Act	Art. 40, 2a|
+|Jegliche Veranstaltungen werden untersagt|	ban of events|	Swiss Epidemics Act	Art. 40, 2a|
+|Schulschliessung	|school closure	|Swiss Epidemics Act	Art. 40, 2b|
+|Verkürzte Öffnungszeiten von Ämtern, maximal Kapazitäten in Läden werden festelegt|	restriction of selected private and public institutions|	Swiss Epidemics Act	Art. 40, 2b|
+|Betriebe wie Bars, Restaurants, Kino, Museen werden geschlossen, Ämter werden geschlossen|	closure of selected private and public institutions|	Swiss Epidemics Act	Art. 40, 2b|
+|Betreten der Seepromenade ist untersagt, wird gesperrt|	ban of access to private or public buildings or areas|	Swiss Epidemics Act	Art. 40, 2c|
+|Empfehlung zum häufigen Händewaschen, in Ellbogen husten|	recommendations: hygiene|	WHO	|
+|Bevölkerung wird aufgefordert Abstand zu halten, Massenansammlungen jeder Art zu meiden (beim Einkaufen, ÖV usw.)|	recommendations: physical distancing|	WHO	|
+|Besuche im Altersheim, Pflegeheim, Behindertenheim, Spital werden verkürzt|	restriction of access to health and long-term care facilites|	Swiss Epidemics Act	Art. 40, 2b, Art. 19, 2d|
+|Besuche im Altersheim, Pflegeheim, Behindertenheim, Spital sind untersagt|	ban of access to health and long-term care facilites|	Swiss Epidemics Act	Art. 40, 2b, Art. 19, 2d|
+|Einreise aus dem Ausland nur für Personen mit Arbeitsstelle in der Schweiz|	restriction of international mobility|	Swiss Epidemics Act	Art. 41|
+|Einreise aus dem Ausland komplett untersagt mit Ausnahme von Schweizer Bürgern|	ban of international mobility|	Swiss Epidemics Act	Art. 41|
+|Verstorbene müssen speziell behandelt werden (transport, vorbereitung)|	management of dead bodies|	Swiss Epidemics Act	Art. 46|
+|Erkrankte oder Verdachtsfälle werden getestet, Einrichtung von Testzentren|	testing	|Swiss Epidemics Act	Art. 36|
+|Operationen und Eingriffe, welche keine Notfälle sind, werden verschoben|suspension of elective surgery|	?|	
+|Wahlen, Abstimmungen, Parlament oder Ratsmeetings werden verschoben|	suspension of political events	|?	|
 
 ## TODO
 
