@@ -7,9 +7,9 @@ We know this is boring work, but we are grateful to all contributors even if the
 To collect the measures, we settled a simple (long) csv format:
 
 
-| date_implemented | date_lifted | measure | unit | level | source |
-| -----------------|-------------|----------|------|-------- | ---- |
-| date when the measure is implemented | date when the measure is lifted | textual description of the measure | identifier of the administrative unit | level of the administrative unit (canton, city, federal) | url of the source of this measure |
+| date_implemented | date_lifted | measure | unit | level | source | measure_cat|
+| -----------------|-------------|----------|------|-------- | ---- | --- |
+| date when the measure is implemented | date when the measure is lifted | textual description of the measure | identifier of the administrative unit | level of the administrative unit (canton, city, federal) | url of the source of this measure | category of the measure |
 
 The data _must_ be stored in *long* and *tidy* format: if multiple measures for the same entities are introduced at the same data, repeated entries must be created.
 
@@ -19,7 +19,15 @@ The data _must_ be stored in *long* and *tidy* format: if multiple measures for 
 - *city* for measures taken by municipalities
 - *private* for measures taken by businesses, events and other organisations
 
-## |TODO
+- unit: administrative unit. For cantons, use ISO abbreviations (2-letter). For cities, use full name in German, French or Italian. For measures taken by private enterprises or organisations, use their full name.  
+
+- *level*: should take one of the following values: - federal for federal level measures - canton for cantonal measures - city for measures taken by municipalities - private for measures taken by businesses, events and other organisations
+
+- source: paste the URL of the source so that it can be verified
+
+- measure_cat: category of the measure according to the swiss epidemics law. If unsure, leave this field empty.
+
+## TODO
 
 ### General
 - [ ] add measures for all cantons and federal and city level measures.
@@ -45,14 +53,17 @@ The data _must_ be stored in *long* and *tidy* format: if multiple measures for 
 - [ ] Cities
 - [ ] Private measures (Events, companies, ...)
 - [ ] Federal measures after 20.03.2020
+
+
+
 ## How to contribute
-- Select one of the missing entities.
-- Fork this repository
-- Create a pull request and add a separate csv with the data you intend to add. 
-- Stick to the date format dd.mm.yyyy
-- For Cantons, use their official abreviations, for city their full name.
-- Use commas as separator.
-- Quote strings containing commas.
-- if available, add link to the document where the measures are announced.
-- Data in long format: one measure per row. If multiple measures are decided by the same unit at the same time, make multiple entries.
-- Save the file in [data](https://github.com/baffelli/covid-2019-measures/tree/master/data).
+1. Select an entity where data is still missing or incomplete.
+2. Find the correspoding sheet on the collaborative Google Sheet [here](https://drive.google.com/drive/folders/1qy3yExwzflZJKIOcWvhbbhisaWr5qmO5). If the sheet does not exist, create it.
+3. For cantonal level, find the corresponding home page of the cantonal administration where recommendations and orders are published. These are usually published as PDF's under "media announcements / Medienmitteilungen"
+3. Extract the information given in these published orders into the Google sheet. Use the language you are most comfortable with
+Extract the following information:
+- date_implemented: Date of implementation of the measures. Usually this is the date of the publication. If the publication just announces a future measure, do not register it yet as it is not implemented yet. Format is dd.mm.yyyy
+- date_lifted: Date when the control measures are lifted or undone. In most cases, you will not know this, so leave the field empty. For actions with a clear time horizon (i.e. School closure), the date_lifted can be added. However, we will have to check this continuously, since these measures are subject to change. Format is dd.mm.yyyy
+-  measure: Free text, short description of measures taken. Look for any recommendation or action/orders issued in relation to stopping the transmission. Examples are given below.
+- measure_cat: category of measure. These are coded according to measures described in the Federal Pandemic law and according to the recommendations of WHO. If you are unsure about the category, leave the field empty. Use only the categories provided, do not make new categories. 
+
