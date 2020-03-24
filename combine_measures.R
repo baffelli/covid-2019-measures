@@ -9,9 +9,9 @@ files_to_join <- append(Sys.glob("data/measures_[A-Z]*.csv"), "data/measures.csv
 
 #Set column types
 col_types <- cols(
-  date_implemented = col_datetime(),
-  date_lifted = col_datetime(),
-  measure = col_double(),
+  date_implemented = col_date(format = "%d.%m.%Y"),
+  date_lifted = col_date(),
+  measure = col_character(),
   level = col_character(),
   unit = col_character(),
   source = col_character()
@@ -32,5 +32,5 @@ combined_measures %>%
   mutate(measure_cat=NA) %>%
   nest() %>% 
   mutate(
-    out = map2(data, nesting, ~write_csv(.x, path =  stringr::str_interp("data/measures_to_edit_${.y}.csv"))))
+    out = map2(data, nesting, ~write_csv(.x, path =  stringr::str_interp("data/to_edit/measures_${.y}.csv"))))
   
