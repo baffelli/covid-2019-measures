@@ -12,5 +12,9 @@ combined_measures <- bind_rows(all_measures)
 #Save them
 readr::write_csv(combined_measures, "data/combined_measures.csv", na = "")
 
-#Also save them in wide format
-
+#Save each region into a separate file to be uploaded to google docs
+combined_measures %>%  
+  group_by(nesting=unit) %>% 
+  mutate(measure_cat=NA) %>%
+  nest() %>% 
+  mutate(out = map2(data, nesting, ~write_csv(.x, path =  stringr::str_interp("data/measures_to_write_${.y}.csv"))))
