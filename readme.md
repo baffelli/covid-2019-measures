@@ -23,31 +23,37 @@ So far the primary outcome of the project has been a crowdsourced collection of 
 The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (). 
 
 ## Data format
-To collect the measures, we settled a simple (long) csv format:
+To collect the measures, we settled a simple (long) csv format, which can be used worldwide:
 
 
-| date_implemented | date_lifted | measure | unit | level | source | measure_cat|
-| -----------------|-------------|----------|------|-------- | ---- | --- |
-| date when the measure is implemented | date when the measure is lifted | textual description of the measure | identifier of the administrative unit | level of the administrative unit (canton, city, federal) | url of the source of this measure | category of the measure |
+| country | unit | date_implemented | date_lifted | measure | level | source | measure_cat| measure_sub_cat |
+| ---- | -----------------|-------------|----------|------|-------- | ---- | --- | --- | 
+|the ISO  code of the country where the measure is implemented |  identifier of the administrative unit according to ISO_3166-2 | date when the measure is implemented | date when the measure is lifted | textual description of the measure | level of the administrative unit (nation, region, city, private) | url of the source of this measure | main category of the measure | sub category of the measure |
 
 The data _must_ be stored in *long* and *tidy* format: if multiple measures for the same entities are introduced at the same data, repeated entries must be created.
 
-*unit* should take one of the following values: 
-- *federal* for federal level measures
-- *canton* for cantonal measures
-- *city* for measures taken by municipalities
-- *private* for measures taken by businesses, events and other organisations
+ - *country*: ISO code of the country where the measure applies.
 
-- unit: administrative unit. For cantons, use ISO abbreviations (2-letter). For cities, use full name in German, French or Italian. For measures taken by private enterprises or organisations, use their full name.  
+- *unit*: administrative unit. Whenever possible, use the ISO_3166-2 code. For cities, use full name in German, French or Italian. For measures taken by private enterprises or organisations, use their full name.  
 
-- *level*: should take one of the following values: - federal for federal level measures - canton for cantonal measures - city for measures taken by municipalities - private for measures taken by businesses, events and other organisations
+- *level* should take one of the following values: 
+  * *national* for nation-level measures
+  * *regional* for measures taken at the level of regions
+  * *city* for measures taken by municipalities
+  * *private* for measures taken by businesses, events and other organisations
+  
+- *date_implemented*: the date when the misure first was implemented
 
-- source: paste the URL of the source so that it can be verified
+- *date_lifted*: the date when the measure was lifted
 
-- measure_cat: category of the measure according to the swiss epidemics law. If unsure, leave this field empty. 
+- *measure*: the textual description (possibly in _english_) of the measure.
+
+- *measure_cat* and *measure_sub_cat*: main and sub- category of the measure according to the following codebook. If unsure, leave these fields empty. 
+
+- *source*:  paste the URL of the source so that it can be verified
 
 #### Measure categorization
-To fill the *measure_cat*  column, we propose the following categorization:
+To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the following categorization, which was adapted from the categorization from  Simom Heß and Patrick Schmidt found [here](https://docs.google.com/spreadsheets/d/1tYfD3vvSEaW3Cq9-UZoDtlKIfaMMVJq8XnV9XJUdK3s/edit#gid=540626239):
 
 | example | category | law article |
 | ------- | -------- | ------------ |
@@ -70,6 +76,50 @@ To fill the *measure_cat*  column, we propose the following categorization:
 |Erkrankte oder Verdachtsfälle werden getestet, Einrichtung von Testzentren|	testing	|Swiss Epidemics Act	Art. 36|
 |Operationen und Eingriffe, welche keine Notfälle sind, werden verschoben|suspension of elective surgery|	?|	
 |Wahlen, Abstimmungen, Parlament oder Ratsmeetings werden verschoben|	suspension of political events	|?	|
+		
+* Ban of Group Gatherings: Private gatherings of groups of a certain size are forbidden. Use the size as *measure_sub_cat* as follows:
+  * 0-5
+  * 5-10
+  * 10-50
+  * 50-100
+  * 100-1000
+  * > 1000
+* restriction of international mobility: international travel is significantly restricted. Use the following sub categories in *measure_sub_cat*:
+  * partial: only some border crossings are closed, entries are restricted only for people from countries considered at risk
+  * total: all border crossing are closed. No entry into country
+* restriction of internal mobility. Use the following sub categories in *measure_sub_cat*:
+  * partial: people cannot enter or leave areas considered at risk unless for important reasons
+  * total: all residents must stay inside of their municipality or region unless for urgent reasons (medical, family etc)
+  
+* reduction of public transport: public transport service are reduced. Here again use the following sub categories:
+  * partial
+  * total
+* Cancelation of Events. Public events of a certain size are cancelled by the government. (Excludes: Volontary suspension of sport leagues, etc)	Use the following sub categories in *measure_sub_cat*:
+  * 0-5
+  * 5-10
+  * 10-50
+  * 50-100
+  * 100-1000
+  * > 1000
+* Cluster Tracking and Containment: Government interventions to track and isolate contacts of known patients.	Use following sub categories in *measure_sub_cat*:
+  * contact tracing: active contact tracing performed by authorities
+  * mandatory isolation: postive cases are isolated in ad-hoch structures
+  * voluntary isolation: positve cases are advised to self-isolate
+* Curfew with the following sub-categories in in *measure_sub_cat*:		
+  * Mild: Banning public private live		
+  * Lockdown: Closure of All Non-Essential Public Life, Only movement for shopping, medical and work reasons
+  * Strict: Any movement outside is banned		
+* Restaurant/Bar Closure: Bars, Restaurants, Clubs, Hotels are closed. Use the following sub categories in in *measure_sub_cat* if necessary:
+  * partial: restaurants and bar can stay open with reduced nuber of customers
+  * total: all restaurants and bars must close (with exceptions for hospital canteens and similar institutions)
+* Daycare Closings: Daycare is suspended (for children of "normal people", daycare for health workers etc. may still be offered). Leave the *measure_sub_cat* field	 blank		
+* School Closings: Schools are suspended. Leave the *measure_sub_cat*	 blank		
+* University Closings: 	In-person univeristy classes are suspended. Leave the *measure_sub_cat*	 blank.
+* Social Distancing Encouraged:	The government explicitly encourages social distancing. Leave the *measure_sub_cat*	 blank.					
+* Public Talk of Central Govt Figure:	A central government figure (president, queen, etc) publically addresses the nation. Leave the *measure_sub_cat*	 blank		
+* hygiene measures: specific hygiene measures are ordered. Examples: increased hand washing, alchool dispensers in public places, mandatory mask in public locations.
+
+
 
 ## TODO
 
