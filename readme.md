@@ -94,7 +94,7 @@ To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the followi
 * *reduction of public transport*: public transport service are reduced. Here again use the following sub categories:
   * *partial*
   * total
-* *event ban* . Public events of a certain size are cancelled by the government. (Excludes: Volontary suspension of sport leagues, etc)	Use the following sub categories in *measure_sub_cat*:
+* *event ban*: Public events of a certain size are cancelled by the government. (Excludes: Volontary suspension of sport leagues, etc)	Use the following sub categories in *measure_sub_cat*:
   * 0-5
   * 5-10
   * 10-50
@@ -105,18 +105,20 @@ To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the followi
   * *contact tracing*: active contact tracing performed by authorities
   * *mandatory isolation*: postive cases are isolated in ad-hoch structures
   * *voluntary isolation*: positve cases or person who came in contact with them are advised to self-isolate
-* *curfew* with the following sub-categories in in *measure_sub_cat*:		
+* *curfew*: with the following sub-categories in  *measure_sub_cat*:		
   * *Mild*: Banning public private live		
   * *Lockdown*: Closure of All Non-Essential Public Life, Only movement for shopping, medical and work reasons
   * *Strict*: Any movement outside is banned	
-* *business closure*: all-non necessry business activities are closed.
+* *business closure*: all-non necessry business activities are closed. Use following *measure_sub_cat*:
+	* *partial*
+	* *total*
 * *restaurant/bar closure*: Bars, Restaurants, Clubs, Hotels are closed. Use the following sub categories in in *measure_sub_cat* if necessary:
   * partial: restaurants and bar can stay open with reduced nuber of customers
   * total: all restaurants and bars must close (with exceptions for hospital canteens and similar institutions)
 * *daycare closure*: Daycare is suspended (for children of "normal people", daycare for health workers etc. may still be offered). Leave the *measure_sub_cat* field	 blank		
 * *school closure*: Schools are suspended. Leave the *measure_sub_cat*	 blank		
 * *university closure*: 	In-person univeristy classes are suspended. Leave the *measure_sub_cat*	 blank.
-* Social Distancing Encouraged:	The government explicitly encourages social distancing. Leave the *measure_sub_cat*	 blank.					
+* *social distancing*:	The government explicitly encourages social distancing. Leave the *measure_sub_cat*	 blank.					
 * Public Talk of Central Govt Figure:	A central government figure (president, queen, etc) publically addresses the nation. Leave the *measure_sub_cat*	 blank		
 * *hygiene measures*: specific hygiene measures are ordered. Examples: increased hand washing, alchool dispensers in public places, mandatory mask in public locations.
 
