@@ -120,7 +120,9 @@ To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the followi
 * *daycare closure*: Daycare is suspended (for children of "normal people", daycare for health workers etc. may still be offered). Leave the *measure_sub_cat* field	 blank		
 * *school closure*: Schools are suspended. Leave the *measure_sub_cat*	 blank		
 * *university closure*: 	In-person univeristy classes are suspended. Leave the *measure_sub_cat*	 blank.
-* *social distancing*:	The government explicitly encourages social distancing. Leave the *measure_sub_cat*	 blank.					
+* *social distancing*:	The government explicitly encourages social distancing. Leave the *measure_sub_cat*	 blank
+* *hotline*: information hotline for citizens is formed.
+* *crisis staff*: a government crisis staff is formed to evaluate and react to the situation.
 * Public Talk of Central Govt Figure:	A central government figure (president, queen, etc) publically addresses the nation. Leave the *measure_sub_cat*	 blank		
 * *hygiene measures*: specific hygiene measures are ordered. Examples: increased hand washing, alchool dispensers in public places, mandatory mask in public locations.
 
