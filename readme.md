@@ -84,6 +84,7 @@ To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the followi
   * 50-100
   * 100-1000
   * > 1000
+  * evaulation: events are permitted after risk evaluation
 * *restriction of international mobility*: international travel is significantly restricted. Use the following sub categories in *measure_sub_cat*:
   * *recommended*: travel from or to certain regions is discouraged but _not_ forbidden.
   * *partial*: only some border crossings are closed, entries are restricted only for people from countries considered at risk
