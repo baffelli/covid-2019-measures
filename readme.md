@@ -77,47 +77,48 @@ To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the followi
 |Operationen und Eingriffe, welche keine Notfälle sind, werden verschoben|suspension of elective surgery|	?|	
 |Wahlen, Abstimmungen, Parlament oder Ratsmeetings werden verschoben|	suspension of political events	|?	|
 		
-* Ban of Group Gatherings: Private gatherings of groups of a certain size are forbidden. Use the size as *measure_sub_cat* as follows:
+* *ban of group gatherings*: Private gatherings of groups of a certain size are forbidden. Use the size as *measure_sub_cat* as follows:
   * 0-5
   * 5-10
   * 10-50
   * 50-100
   * 100-1000
   * > 1000
-* restriction of international mobility: international travel is significantly restricted. Use the following sub categories in *measure_sub_cat*:
-  * partial: only some border crossings are closed, entries are restricted only for people from countries considered at risk
-  * total: all border crossing are closed. No entry into country
-* restriction of internal mobility. Use the following sub categories in *measure_sub_cat*:
-  * partial: people cannot enter or leave areas considered at risk unless for important reasons
-  * total: all residents must stay inside of their municipality or region unless for urgent reasons (medical, family etc)
+* *restriction of international mobility*: international travel is significantly restricted. Use the following sub categories in *measure_sub_cat*:
+  * *partial*: only some border crossings are closed, entries are restricted only for people from countries considered at risk
+  * *total*: all border crossing are closed. No entry into country
+* *restriction of internal mobility*. Use the following sub categories in *measure_sub_cat*:
+  * *partial*: people cannot enter or leave areas considered at risk unless for important reasons
+  * *total*: all residents must stay inside of their municipality or region unless for urgent reasons (medical, family etc)
   
-* reduction of public transport: public transport service are reduced. Here again use the following sub categories:
-  * partial
+* *reduction of public transport*: public transport service are reduced. Here again use the following sub categories:
+  * *partial*
   * total
-* Cancelation of Events. Public events of a certain size are cancelled by the government. (Excludes: Volontary suspension of sport leagues, etc)	Use the following sub categories in *measure_sub_cat*:
+* *event ban* . Public events of a certain size are cancelled by the government. (Excludes: Volontary suspension of sport leagues, etc)	Use the following sub categories in *measure_sub_cat*:
   * 0-5
   * 5-10
   * 10-50
   * 50-100
   * 100-1000
   * > 1000
-* Cluster Tracking and Containment: Government interventions to track and isolate contacts of known patients.	Use following sub categories in *measure_sub_cat*:
-  * contact tracing: active contact tracing performed by authorities
-  * mandatory isolation: postive cases are isolated in ad-hoch structures
-  * voluntary isolation: positve cases are advised to self-isolate
-* Curfew with the following sub-categories in in *measure_sub_cat*:		
-  * Mild: Banning public private live		
-  * Lockdown: Closure of All Non-Essential Public Life, Only movement for shopping, medical and work reasons
-  * Strict: Any movement outside is banned		
-* Restaurant/Bar Closure: Bars, Restaurants, Clubs, Hotels are closed. Use the following sub categories in in *measure_sub_cat* if necessary:
+* *cluster tracking and containment*: Government interventions to track and isolate contacts of known patients.	Use following sub categories in *measure_sub_cat*:
+  * *contact tracing*: active contact tracing performed by authorities
+  * *mandatory isolation*: postive cases are isolated in ad-hoch structures
+  * *voluntary isolation*: positve cases or person who came in contact with them are advised to self-isolate
+* *curfew* with the following sub-categories in in *measure_sub_cat*:		
+  * *Mild*: Banning public private live		
+  * *Lockdown*: Closure of All Non-Essential Public Life, Only movement for shopping, medical and work reasons
+  * *Strict*: Any movement outside is banned	
+* *business closure*: all-non necessry business activities are closed.
+* *restaurant/bar closure*: Bars, Restaurants, Clubs, Hotels are closed. Use the following sub categories in in *measure_sub_cat* if necessary:
   * partial: restaurants and bar can stay open with reduced nuber of customers
   * total: all restaurants and bars must close (with exceptions for hospital canteens and similar institutions)
-* Daycare Closings: Daycare is suspended (for children of "normal people", daycare for health workers etc. may still be offered). Leave the *measure_sub_cat* field	 blank		
-* School Closings: Schools are suspended. Leave the *measure_sub_cat*	 blank		
-* University Closings: 	In-person univeristy classes are suspended. Leave the *measure_sub_cat*	 blank.
+* *daycare closure*: Daycare is suspended (for children of "normal people", daycare for health workers etc. may still be offered). Leave the *measure_sub_cat* field	 blank		
+* *school closure*: Schools are suspended. Leave the *measure_sub_cat*	 blank		
+* *university closure*: 	In-person univeristy classes are suspended. Leave the *measure_sub_cat*	 blank.
 * Social Distancing Encouraged:	The government explicitly encourages social distancing. Leave the *measure_sub_cat*	 blank.					
 * Public Talk of Central Govt Figure:	A central government figure (president, queen, etc) publically addresses the nation. Leave the *measure_sub_cat*	 blank		
-* hygiene measures: specific hygiene measures are ordered. Examples: increased hand washing, alchool dispensers in public places, mandatory mask in public locations.
+* *hygiene measures*: specific hygiene measures are ordered. Examples: increased hand washing, alchool dispensers in public places, mandatory mask in public locations.
 
 
 
