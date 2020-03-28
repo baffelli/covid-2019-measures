@@ -1,4 +1,8 @@
 # Collecting and encoding the measures taken against the spread of COVID2019
+## Contributors
+- Simone Baffelli
+- Fabiene Krauer
+- Nicolo Lardelli
 ## Introduction
 Here we collect a timeline of all containment and public health measure taken in Switzerland in the course of the COVID2019 pandemics. This is not of immediate use but we believe it will be very percious for future studies on the effect of different control strategies. 
 We know this is boring work, but we are grateful to all contributors even if they only contributed to one or two rows of data.
