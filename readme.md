@@ -1,7 +1,7 @@
 # Collecting and encoding the measures taken against the spread of COVID2019
 ## Contributors
 - Simone Baffelli
-- Fabienne Krauer
+- [Fabienne Krauer](https://github.com/fkrauer)
 - Nicolo Lardelli
 ## Introduction
 Here we collect a timeline of all containment and public health measure taken in Switzerland in the course of the COVID2019 pandemics. This is not of immediate use but we believe it will be very percious for future studies on the effect of different control strategies. 
@@ -24,7 +24,7 @@ This evaluation rests on three types of data, all of which is actively collected
 
 So far the primary outcome of the project has been a crowdsourced collection of all measures taken to slow down the spread of the virus. The data is stored in this repository.
 
-The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (). 
+The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (https://twitter.com/FabiKrauer). 
 
 ## Data format
 To collect the measures, we settled a simple (long) csv format, which can be used worldwide:
@@ -57,80 +57,39 @@ The data _must_ be stored in *long* and *tidy* format: if multiple measures for 
 - *source*:  paste the URL of the source so that it can be verified
 
 #### Measure categorization
-To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the following categorization, which was adapted from the categorization from  Simom Heß and Patrick Schmidt found [here](https://docs.google.com/spreadsheets/d/1tYfD3vvSEaW3Cq9-UZoDtlKIfaMMVJq8XnV9XJUdK3s/edit#gid=540626239):
+To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the following categorization, which is based on the Swiss Epidemics Act and in agreement with the categorization used by Simom Heß and Patrick Schmidt found [here](https://docs.google.com/spreadsheets/d/1tYfD3vvSEaW3Cq9-UZoDtlKIfaMMVJq8XnV9XJUdK3s/edit#gid=540626239):
 
-| example | category | law article |
-| ------- | -------- | ------------ |
-| Kontake von infiszierten Personen werden auffindig gemacht und benachrichtigt |	contact tracing |	Swiss Epidemics Act	Art. 15 |
-|Personen mit Kontakt zu Erkrankten oder Verdachsfälle müssen in Quarantäne zu Hause oder woanders |	quarantine and self-quarantine |	Swiss Epidemics Act	Art. 35a|
-|Erkrankte Personen müssen zu Hause bleiben oder im Spital isoliert werden	| isolation and self-isolation|	Swiss Epidemics Act	Art. 35b|
-|Veranstaltungen mit mehr als 1000 Personen werden untersagt oder sind bewilligungspflichtig |	restriction of events	| Swiss Epidemics Act	Art. 40, 2a|
-|Jegliche Veranstaltungen werden untersagt|	ban of events|	Swiss Epidemics Act	Art. 40, 2a|
-|Schulschliessung	|school closure	|Swiss Epidemics Act	Art. 40, 2b|
-|Verkürzte Öffnungszeiten von Ämtern, maximal Kapazitäten in Läden werden festelegt|	restriction of selected private and public institutions|	Swiss Epidemics Act	Art. 40, 2b|
-|Betriebe wie Bars, Restaurants, Kino, Museen werden geschlossen, Ämter werden geschlossen|	closure of selected private and public institutions|	Swiss Epidemics Act	Art. 40, 2b|
-|Betreten der Seepromenade ist untersagt, wird gesperrt|	ban of access to private or public buildings or areas|	Swiss Epidemics Act	Art. 40, 2c|
-|Empfehlung zum häufigen Händewaschen, in Ellbogen husten|	recommendations: hygiene|	WHO	|
-|Bevölkerung wird aufgefordert Abstand zu halten, Massenansammlungen jeder Art zu meiden (beim Einkaufen, ÖV usw.)|	recommendations: physical distancing|	WHO	|
-|Besuche im Altersheim, Pflegeheim, Behindertenheim, Spital werden verkürzt|	restriction of access to health and long-term care facilites|	Swiss Epidemics Act	Art. 40, 2b, Art. 19, 2d|
-|Besuche im Altersheim, Pflegeheim, Behindertenheim, Spital sind untersagt|	ban of access to health and long-term care facilites|	Swiss Epidemics Act	Art. 40, 2b, Art. 19, 2d|
-|Einreise aus dem Ausland nur für Personen mit Arbeitsstelle in der Schweiz|	restriction of international mobility|	Swiss Epidemics Act	Art. 41|
-|Einreise aus dem Ausland komplett untersagt mit Ausnahme von Schweizer Bürgern|	ban of international mobility|	Swiss Epidemics Act	Art. 41|
-|Verstorbene müssen speziell behandelt werden (transport, vorbereitung)|	management of dead bodies|	Swiss Epidemics Act	Art. 46|
-|Erkrankte oder Verdachtsfälle werden getestet, Einrichtung von Testzentren|	testing	|Swiss Epidemics Act	Art. 36|
-|Operationen und Eingriffe, welche keine Notfälle sind, werden verschoben|suspension of elective surgery|	?|	
-|Wahlen, Abstimmungen, Parlament oder Ratsmeetings werden verschoben|	suspension of political events	|?	|
-		
-* *ban of group gatherings*: Private gatherings of groups of a certain size are forbidden. Use the size as *measure_sub_cat* as follows:
-  * 0-5
-  * 5-10
-  * 10-50
-  * 50-100
-  * 100-1000
-  * > 1000
-  * evaulation: events are permitted after risk evaluation
-* *restriction of international mobility*: international travel is significantly restricted. Use the following sub categories in *measure_sub_cat*:
-  * *recommended*: travel from or to certain regions is discouraged but _not_ forbidden.
-  * *partial*: only some border crossings are closed, entries are restricted only for people from countries considered at risk
-  * *total*: all border crossing are closed. No entry into country
-* *restriction of internal mobility*. Use the following sub categories in *measure_sub_cat*:
-  * *partial*: people cannot enter or leave areas considered at risk unless for important reasons
-  * *total*: all residents must stay inside of their municipality or region unless for urgent reasons (medical, family etc)
-  
-* *reduction of public transport*: public transport service are reduced. Here again use the following sub categories:
-  * *partial*
-  * total
-* *event ban*: Public events of a certain size are cancelled by the government. (Excludes: Volontary suspension of sport leagues, etc)	Use the following sub categories in *measure_sub_cat*:
-  * 0-5
-  * 5-10
-  * 10-50
-  * 50-100
-  * 100-1000
-  * > 1000
-* *cluster tracking and containment*: Government interventions to track and isolate contacts of known patients.	Use following sub categories in *measure_sub_cat*:
-  * *contact tracing*: active contact tracing performed by authorities
-  * *mandatory isolation*: postive cases are isolated in ad-hoch structures
-  * *voluntary isolation*: positve cases or person who came in contact with them are advised to self-isolate
-* *curfew*: with the following sub-categories in  *measure_sub_cat*:		
-  * *Mild*: Banning public private live		
-  * *Lockdown*: Closure of All Non-Essential Public Life, Only movement for shopping, medical and work reasons
-  * *Strict*: Any movement outside is banned	
-* *business closure*: all-non necessry business activities are closed. Use following *measure_sub_cat*:
-	* *partial*
-	* *total*
-* *restaurant/bar closure*: Bars, Restaurants, Clubs, Hotels are closed. Use the following sub categories in in *measure_sub_cat* if necessary:
-  * partial: restaurants and bar can stay open with reduced nuber of customers
-  * total: all restaurants and bars must close (with exceptions for hospital canteens and similar institutions)
-* *daycare closure*: Daycare is suspended (for children of "normal people", daycare for health workers etc. may still be offered). Leave the *measure_sub_cat* field	 blank		
-* *school closure*: Schools are suspended. Leave the *measure_sub_cat*	 blank		
-* *university closure*: 	In-person univeristy classes are suspended. Leave the *measure_sub_cat*	 blank.
-* *social distancing*:	The government explicitly encourages social distancing. Leave the *measure_sub_cat*	 blank
-* *hotline*: information hotline for citizens is formed.
-* *crisis staff*: a government crisis staff is formed to evaluate and react to the situation.
-* Public Talk of Central Govt Figure:	A central government figure (president, queen, etc) publically addresses the nation. Leave the *measure_sub_cat*	 blank		
-* *hygiene measures*: specific hygiene measures are ordered. Examples: increased hand washing, alchool dispensers in public places, mandatory mask in public locations.
-
-
+| measure_cat                | measure_sub_cat                                                    | note                                                                                                                        | law                                           |
+|----------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| case management            | contact tracing                                                    |                                                                                                                             | Swiss Epidemics Act, Art. 15                  |
+| case management            | isolation and self-isolation                                       | Isolation at home or in care facility of cases                                                                              | Swiss Epidemics Act, Art. 35b                 |
+| case management            | management of dead bodies                                          |                                                                                                                             | Swiss Epidemics Act, Art. 46                  |
+| case management            | quarantine and self-quarantine                                     | isolation at home or in care facility of suspected cases or contacts                                                        | Swiss Epidemics Act, Art. 35a                 |
+| case management            | testing                                                            |                                                                                                                             |                                               |
+| economic                   |                                                                    | Including monetary or fiscal support, suspension of tax claims                                                              |                                               |
+| mass gatherings            | ban of events / mass gatherings of > 10 persons                    |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2a              |
+| mass gatherings            | ban of events / mass gatherings of > 100 persons                   |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2a              |
+| mass gatherings            | ban of events / mass gatherings of > 1000 persons                  |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2a              |
+| mass gatherings            | ban of events / mass gatherings of > 5 persons                     |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2a              |
+| mass gatherings            | ban of events / mass gatherings of > 50 persons                    |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2a              |
+| mass gatherings            | ban of events / mass gatherings of > 500 persons                   |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2a              |
+| mass gatherings            | event permit required                                              |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2a              |
+| mobility                   | ban of cross-border mobility                                       | No incoming mobility allowed                                                                                                | Swiss Epidemics Act, Art. 41                  |
+| mobility                   | restriction of cross-border mobility                               | Incoming mobility allowed for restricted purposes (e.g. work)                                                               | Swiss Epidemics Act, Art. 41                  |
+| mobility                   | shelter-in-place order, curfew                                     | Prohibited to leave the house except for essential errands                                                                  |                                               |
+| mobility                   | stay-at-home recommendation                                        | Strong recommendation to stay and work from home                                                                            |                                               |
+| other                      |                                                                    | Including suspension of elective surgeries or political events, establishment of information hotlines                       |                                               |
+| private institution access | closure of private institutions and businesses with close contact  | Including restaurants, bars, clubs, hair dressers, massage and beauty salons                                                | Swiss Epidemics Act, Art. 40, 2b              |
+| private institution access | restriction of access to private institutions: restaurants, bars,… | Including restriction on maximum number of people or minimum distance, business hours, restriction on use of infrastructure | Swiss Epidemics Act, Art. 40, 2b              |
+| public institution access  | ban of access to public open areas and parks                       |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2c              |
+| public institution access  | ban of access to short- and long-term care facilites               | Including hospitals, nursing homes, rehabilitation centers and disabled homes                                               | Swiss Epidemics Act, Art. 40, 2b, Art. 19, 2d |
+| public institution access  | closure of public institutions: day care                           |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2b              |
+| public institution access  | closure of public institutions: museums                            |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2b              |
+| public institution access  | closure of public institutions: public offices and counters        |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2b              |
+| public institution access  | closure of public institutions: schools                            |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2b              |
+| public institution access  | closure of public institutions: universities                       |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2b              |
+| public institution access  | restriction of access to short- and long-term care facilites       | Including hospitals, nursing homes, rehabilitation centers and disabled homes                                               | Swiss Epidemics Act, Art. 40, 2b, Art. 19, 2d |
+| recommendations            |                                                                    | Including information campaigns and recommendations for hand washing, respiratory hygiene and physical distancing           |                                               |
 
 ## TODO
 
@@ -139,7 +98,7 @@ To fill the *measure_cat*  and *measure_sub_cat* columns, we propose the followi
 - [ ] code them according to general categories (Veranstaltungsverbot, ...) according to Art. 40 of the [Epiemiegesetz](https://www.admin.ch/opc/de/classified-compilation/20071012/index.html#a40)
 - [ ] prepare an interactive visualization of these measures
 
-### Missing Entities
+### Data collected for
 - [x] BE
 - [ ] TG
 - [ ] VS
