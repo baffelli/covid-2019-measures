@@ -5,7 +5,7 @@
 - [Nicolo Lardelli](https://www.researchgate.net/profile/Nicolo_Lardelli)
 - [Johannes Bracher](https://github.com/jbracher)
 - [Maria Bekker-Nielsen Dunbar](https://github.com/mariabnd)
-- [Muriel Buri](https://www.ebpi.uzh.ch/en/aboutus/departments/biostatistics/teambiostats/buri_muriel.html)
+- [Muriel Buri](https://github.com/mrllynn)
 - [Agnė Ulytė](https://www.ebpi.uzh.ch/en/aboutus/departments/epidemiology/cde/teamcde/ulyte.html)
 
 
