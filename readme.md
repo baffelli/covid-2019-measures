@@ -60,6 +60,10 @@ We collected the following information:
 | public institution access  | restriction of access to short- and long-term care facilites       | Including hospitals, nursing homes, rehabilitation centers and disabled homes                                               | Swiss Epidemics Act, Art. 40, 2b, Art. 19, 2d |
 | recommendations            |                                                                    | Including information campaigns and recommendations for hand washing, respiratory hygiene and physical distancing, establishment of hotlines           |                         
 
+## Data usage
+You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
+
+
 ## Contributors
 - [Simone Baffelli](https://github.com/baffelli)
 - [Fabienne Krauer](https://github.com/fkrauer)
