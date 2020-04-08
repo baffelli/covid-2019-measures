@@ -6,7 +6,7 @@ Since February 25, 2020 Switzerland is affected by COVID-19. Modelling predictio
 This project is a collaborative effort by volunteers (see contributors below). The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (https://twitter.com/FabiKrauer).  
 
 ## Methods
-We collect all available information about measures taken in response to COVID-19 (raw data). We collect only data from official cantonal websites (usually filed under "media releases"). We then categorize all measures as far as possible (see below). All categorizations are reviewed by a second person. Information is updated once a week. The raw data are collected in Google spreadsheets. When updated the raw data are merged, cleaned and reduced to dummy variables to make them more useful for research with an R script. 
+We collect all available information about measures taken in response to COVID-19 from official cantonal and federal press releases (raw data). We then categorize all measures as far as possible (see below). All categorizations are reviewed by a second person. Information is updated once a week. The raw data are collected in Google spreadsheets. When updated the raw data are merged, cleaned and reduced to dummy variables to make them more useful for research with an R script. 
 
 
 ### Data format
