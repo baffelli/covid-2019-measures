@@ -1,4 +1,4 @@
-# Collecting and encoding the measures taken against the spread of COVID2019
+# Collecting and encoding the measures taken against the spread of COVID2019 in Switzerland
 
 ## Introduction
 Since February 25, 2020 Switzerland is affected by COVID-19. Modelling predictions show that this pandemic will not stop on its own and that stringent migitation strategies are needed. Switzerland has implemented a series of measures both at cantonal and federal level. The aim of this project is to collect and categorize these control measures implemented and provide an updated data set, which can be used for modelling or visualization purposes.
@@ -6,11 +6,47 @@ Since February 25, 2020 Switzerland is affected by COVID-19. Modelling predictio
 This project is a collaborative effort by volunteers (see contributors below). The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (https://twitter.com/FabiKrauer).  
 
 ## Methods
-We collect all available information about measures taken in response to COVID-19 from official cantonal and federal press releases (raw data). We then categorize all measures as far as possible (see below). All categorizations are reviewed by a second person. Information is updated once a week. The raw data are collected in Google spreadsheets. When updated the raw data are merged, cleaned and reduced to dummy variables to make them more useful for research with an R script. 
+
+### Data collection
+We collect the date/duration and level of the most important measures taken in response to COVID-19 from official cantonal and federal press releases. We include the following measures:
+
+| measure         | levels                                                                                                                                                                                                  | comment                                                                                                                                                           |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| carefacilities  | 0=no restriction, 1=restricted access, 2=access prohibited                                                                                                                                              | includes hospitals, nursing and disabled homes                                                                                                                    |
+| casemanagement  | 0=no, 1=yes                                                                                                                                                                                             | includes testing, isolation, quarantine and triage                                                                                                                |
+| daycare         | 0=no restriction, 1=restricted access or closed                                                                                                                                                         | includes Krippe and Hort                                                                                                                                          |
+| events          | 0=no restriction, 1=events > 1000 persons banned, 2=events > 500 persons banned, 3=events > 100 persons banned, 4=events > 50 persons banned, 5=events > 10 persons banned, 6=events > 5 persons banned | includes events and mass gatherings of any kind                                                                                                                   |
+| lockdown        | 0=no, 1=yes                                                                                                                                                                                             | Switzerland does not have an official "lockdown" policy in the sense of a shelter-in-place order. This category means a "strong recommendation to stay at home".  |
+| mobilityint     | 0=no restriction, 1=restriction of cross-border mobility, 2=closing of borders                                                                                                                          |                                                                                                                                                                   |
+| publicoffices   | 0=no restriction, 1=closed                                                                                                                                                                              | includes public offices with counters such as tax office or vehicle registration office                                                                           |
+| publicplaces    | 0=no restriction, 1=closed                                                                                                                                                                              | includes museums, sports facilities, parks                                                                                                                        |
+| publictransport | 0=no restriction, 1=reduced                                                                                                                                                                             |                                                                                                                                                                   |
+| recommendations | 0=no, 1=yes                                                                                                                                                                                             | includes information campaigns and general recommendations such as respiratory hygiene and physical distancing                                                    |
+| retailgastro    | 0=no restriction, 1=restricted access, 2=closure                                                                                                                                                        | includes all non-essential retail, gastronomy and entertainment places as well as businesses with direct contact (hair dressers, massage,…)                       |
+| schools         | 0=no restriction, 1=closed                                                                                                                                                                              | includes primary and secondary school as well as Kindergarten                                                                                                     |
+| universities    | 0=no restriction, 1=closed                                                                                                                                                                              |                                                                                                                                                                   |
+
+The data are collected in a Google spreadsheet and updated periodically. The files are available for download in this github with the date indicating the last update. 
+
+## Data usage
+You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
 
 
-### Data format
-We collected the following information:
+## Contributors
+- [Simone Baffelli](https://github.com/baffelli)
+- [Fabienne Krauer](https://github.com/fkrauer)
+- [Nicolo Lardelli](https://www.researchgate.net/profile/Nicolo_Lardelli)
+- [Johannes Bracher](https://github.com/jbracher)
+- [Maria Bekker-Nielsen Dunbar](https://github.com/mariabnd)
+- [Muriel Buri](https://github.com/mrllynn)
+- [Agnė Ulytė](https://www.ebpi.uzh.ch/en/aboutus/departments/epidemiology/cde/teamcde/ulyte.html)
+
+
+
+
+## ARCHIVED: Raw initial data collection
+Initially, we collected all information about all measures undertaken until 2020-04-06 verbatim in Google spreadsheets and categorized each item according to the categories below. From these raw data, we define the most important measures and aggregated the data set as described above to make it more useful for research. The original raw dataset is still available, but will not be updated.  
+
 | varname          | description                                                                                                                                                                                              | select                                                                                                                                |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | country          |  ISO code of the country where the measure applies                                                                                                                                                       |                                                                                                                                       |
@@ -24,9 +60,7 @@ We collected the following information:
 | source           | URL of the source                                                                                                                                                                                        |                                                                                                                                       |
 | entered_by       | initials of who entered the data and set the categories                                                                                                                                                  |                                                                                                                                       |
 | reviewed_by      | initials of who reviewed the categories                                                                                                                                                                  |                                                                                                                                       |
-
-### Measure categorization
-
+The measurements have the following subcategories:
 
 | measure_cat                | measure_sub_cat                                                    | note                                                                                                                        | law                                           |
 |----------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
@@ -59,19 +93,6 @@ We collected the following information:
 | public institution access  | closure of universities                       |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2b              |
 | public institution access  | restriction of access to short- and long-term care facilites       | Including hospitals, nursing homes, rehabilitation centers and disabled homes                                               | Swiss Epidemics Act, Art. 40, 2b, Art. 19, 2d |
 | recommendation_information            |                                                                    | Including information campaigns and recommendations for hand washing, respiratory hygiene and physical distancing, establishment of hotlines           |                         
-
-## Data usage
-You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
-
-
-## Contributors
-- [Simone Baffelli](https://github.com/baffelli)
-- [Fabienne Krauer](https://github.com/fkrauer)
-- [Nicolo Lardelli](https://www.researchgate.net/profile/Nicolo_Lardelli)
-- [Johannes Bracher](https://github.com/jbracher)
-- [Maria Bekker-Nielsen Dunbar](https://github.com/mariabnd)
-- [Muriel Buri](https://github.com/mrllynn)
-- [Agnė Ulytė](https://www.ebpi.uzh.ch/en/aboutus/departments/epidemiology/cde/teamcde/ulyte.html)
 
 
 ## Related projects 
