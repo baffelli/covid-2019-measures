@@ -8,7 +8,7 @@ This project is a collaborative effort by volunteers (see contributors below). T
 ## Methods
 
 ### Data collection
-We collect the date/duration and level of the most important measures taken in response to COVID-19 from official cantonal and federal press releases. We include the following measures:
+We collect the date/duration and level of the most important measures taken in response to COVID-19 from official cantonal and federal press releases for each Kanton of Switzerland. We consider the following measures:
 
 | measure         | levels                                                                                                                                                                                                  | comment                                                                                                                                                           |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
