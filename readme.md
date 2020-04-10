@@ -28,14 +28,6 @@ We collect the date/duration and level of the most important measures taken in r
 
 The data are collected in a Google spreadsheet and updated periodically. The files are available for download in this github with the date indicating the last update. 
 
-## Results
-
-As of April 6, 2020 the implementation of control measures in Switzerland is mostly consistent across Kantons, with the exception of events and mass gatherings, which were regulated much earlier by the heavily affected Kantons (TI). 
-
-![Events and mass gatherings](https://github.com/baffelli/covid-2019-measures/tree/master/plots/events.png)
-
-
-
 
 ## Data usage
 You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
