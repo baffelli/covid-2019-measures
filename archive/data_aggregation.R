@@ -80,7 +80,7 @@ clean$schools <- ifelse(clean$measure_sub_cat=='closure of schools',1,NA)
 clean$universities <- ifelse(clean$measure_sub_cat=='closure of universities',1,NA)
 clean$publicoffices <- ifelse(clean$measure_sub_cat=='closure of public offices and counters',1,NA)
 clean$publictransport <- ifelse(clean$measure_sub_cat=='reduction of public transport',1,NA)
-clean$lockdown <- ifelse(clean$measure_sub_cat=='stay-at-home recommendation',1,NA)
+clean$stayathome <- ifelse(clean$measure_sub_cat=='stay-at-home recommendation',1,NA)
 clean$casemanagement <- ifelse(clean$measure_sub_cat=="casemanagement",1,NA)
 clean$recommendations <- ifelse(clean$measure_sub_cat=="recommendations",1,NA)
 
