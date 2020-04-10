@@ -1,4 +1,4 @@
-country,unit,date,events,carefacilities,retailgastro,publicplaces,mobilityint,daycare,schools,universities,publicoffices,publictransport,lockdown,casemanagement,recommendations
+country,unit,date,events,carefacilities,retailgastro,publicplaces,mobilityint,daycare,schools,universities,publicoffices,publictransport,stayathome,casemanagement,recommendations
 CH,AG,2020-01-29,0,0,0,0,0,0,0,0,0,0,0,0,0
 CH,AI,2020-01-29,0,0,0,0,0,0,0,0,0,0,0,0,0
 CH,AR,2020-01-29,0,0,0,0,0,0,0,0,0,0,0,0,0
