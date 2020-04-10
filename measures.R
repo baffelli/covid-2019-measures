@@ -8,8 +8,8 @@ library(ggplot2)
 
 # 1. Load data ----------------------------
 
-# some code here to pull data from a Google sheet(s)
-# data <- 
+data <- read.csv("measures_CH_2020-04-06.csv", stringsAsFactors = F) # change the date to the corresponding last update
+data$date <- as.Date(data$date)
 
 # 2. Visualize ----------------------------
 
