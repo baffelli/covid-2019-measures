@@ -194,8 +194,8 @@ publictransport
 dev.off()
 
 
-# lockdown
-lockdown <- ggplot(data) + geom_tile(aes(x=unit, y=date, fill=as.factor(lockdown)), color="grey") +
+# stay-at-home
+stayathome <- ggplot(data) + geom_tile(aes(x=unit, y=date, fill=as.factor(stayathome)), color="grey") +
   xlab(NULL) + ylab(NULL)  +  
   scale_y_date(expand=c(0,0)) + 
   theme(axis.text.x=element_text(angle=90, vjust=0.5),
@@ -204,11 +204,11 @@ lockdown <- ggplot(data) + geom_tile(aes(x=unit, y=date, fill=as.factor(lockdown
                     labels=c("no", "yes")) +
   ggtitle("Explicit stay-at-home recommendation")
 
-png(file = paste0("lockdown.png"),
+png(file = paste0("stayathome.png"),
      width = 1000,
      height = 1000,
      res = 150)
-lockdown
+stayathome
 dev.off()
 
 
