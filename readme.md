@@ -34,14 +34,17 @@ The data are collected in a Google spreadsheet and updated periodically. The fil
 ## Data usage
 You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
 
+## Disclaimer
+It is possible that some measures are missing because they were not communicated explicitly on the websites of the cantonal administrations. If you spot an error or want to make a suggestion for adding data, please contact us. 
 
 ## Contributors
 - [Simone Baffelli](https://github.com/baffelli)
 - [Fabienne Krauer](https://github.com/fkrauer)
-- [Nicolo Lardelli](https://www.researchgate.net/profile/Nicolo_Lardelli)
 - [Johannes Bracher](https://github.com/jbracher)
 - [Maria Bekker-Nielsen Dunbar](https://github.com/mariabnd)
 - [Muriel Buri](https://github.com/mrllynn)
+- [Nicolo Lardelli](https://www.researchgate.net/profile/Nicolo_Lardelli)
+- [Jonas Oesch](https://github.com/jonasoesch)
 
 
 ## ARCHIVED: Raw initial data collection
