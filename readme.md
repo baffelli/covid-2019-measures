@@ -30,6 +30,8 @@ We consider the following measures:
 
 The data are collected in a Google spreadsheet and updated periodically. The files are available for download in this github with the date indicating the last update. 
 
+## Results
+For a visualization of the measures until 2020-06-04, see [here](https://fkrauer.github.io/covid-measures/).
 
 ## Data usage
 You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
@@ -96,8 +98,6 @@ The measurements have the following subcategories:
 | public institution access  | closure of universities                       |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2b              |
 | public institution access  | restriction of access to short- and long-term care facilites       | Including hospitals, nursing homes, rehabilitation centers and disabled homes                                               | Swiss Epidemics Act, Art. 40, 2b, Art. 19, 2d |
 | recommendation_information            |                                                                    | Including information campaigns and recommendations for hand washing, respiratory hygiene and physical distancing, establishment of hotlines           |                         
-## Results
-For a visualization of the measures until 2020-06-04, see [here](https://fkrauer.github.io/covid-measures/).
 
 ## Related projects 
 - collection of data on the number of confirmed cases and on the number of performed tests, patients with severe disease progression and number of recovered patients.  This is part of another [challenge](https://db.schoolofdata.ch/project/73) of this hackathon. This data can be considered the *dependent variable* and can be used directly (with the usual caveats regarding specificity, sensitivity, sampling bias etc.) to measure the effect of the measures.
