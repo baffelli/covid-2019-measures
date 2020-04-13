@@ -1,14 +1,16 @@
 # Collecting and encoding the measures taken against the spread of COVID2019 in Switzerland
 
 ## Introduction
-Since February 25, 2020 Switzerland is affected by COVID-19. Modelling predictions show that this pandemic will not stop on its own and that stringent migitation strategies are needed. Switzerland has implemented a series of measures both at cantonal and federal level. The aim of this project is to collect and categorize these control measures implemented and provide an updated data set, which can be used for modelling or visualization purposes.
+Since February 25, 2020 Switzerland is affected by COVID-19. Modelling predictions show that this pandemic will not stop on its own and that stringent migitation strategies are needed. Switzerland has implemented a series of measures both at cantonal and federal level. The aim of this project is to collect and categorize these control measures implemented and provide an updated data set, which can be used for modelling or visualization purposes. Please cite the [DOI](https://doi.org/10.5281/zenodo.3749747) if you use this dataset. 
 
 This project is a collaborative effort by volunteers (see contributors below). The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (https://twitter.com/FabiKrauer).  
 
 ## Methods
 
 ### Data collection
-We collect the date/duration and level of the most important measures taken in response to COVID-19 from official cantonal and federal press releases for each Kanton of Switzerland. We consider the following measures:
+We collect the date/duration and level of the most important measures taken in response to COVID-19 from official cantonal and federal press releases for each Kanton of Switzerland. The most current version is available for download in this repository. 
+
+We consider the following measures:
 
 | measure         | levels                                                                                                                                                                                                  | comment                                                                                                                                                           |
 |-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -40,9 +42,6 @@ You are free to use these data under the CC-BY-NC creative commons license. Plea
 - [Johannes Bracher](https://github.com/jbracher)
 - [Maria Bekker-Nielsen Dunbar](https://github.com/mariabnd)
 - [Muriel Buri](https://github.com/mrllynn)
-- [Agnė Ulytė](https://www.ebpi.uzh.ch/en/aboutus/departments/epidemiology/cde/teamcde/ulyte.html)
-
-
 
 
 ## ARCHIVED: Raw initial data collection
