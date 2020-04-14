@@ -36,6 +36,13 @@ For a visualization of the measures until 2020-06-04, see [here](https://fkrauer
 ## Data usage
 You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
 
+## Workflow
+
+- Raw data are collected in Google Sheets [here](https://drive.google.com/drive/folders/1BrdACHo19f_Q-b2aEU3ZlwwKb68VYPGj) (access restricted to collaborators, get in touch if you want to contribute). Here, each row corresponds to one interention in one canton or the whole of Switzerland.
+- The script `code/pull_data_from_drive.R` collects the data from the Google sheets, updates the csv files in your local `data` folder and the pooled data set `measures_detailed_CH.csv`. Again, you need access to our Google Drive.
+- The script `code/reformat_data.R` generates the more parsimonious version `measures_CH.csv` from `measures_detailed_CH.csv`.
+- All updated csv files can then be committed and pushed to github.
+
 ## Disclaimer
 It is possible that some measures are missing because they were not communicated explicitly on the websites of the cantonal administrations. If you spot an error or want to make a suggestion for adding data, please contact us. 
 
