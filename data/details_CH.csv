@@ -1,0 +1,19 @@
+"country","unit","date","measure","category","new_val","source","entered_by","reviewed_by"
+"CH","CH",2020-02-27,"Start BAG information campaign","recommendations",1,NA,"FK",NA
+"CH","CH",2020-02-28,"ban on events with more than 1000 persons","events",1,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78289.html","FK/SB",NA
+"CH","CH",2020-03-02,"Updated BAG information campaign","recommendations",1,NA,"FK",NA
+"CH","CH",2020-03-13,"entry ban from high risk countries","mobilityint",1,NA,"FK",NA
+"CH","CH",2020-03-13,"event ban for events larger than 100 persons","events",3,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78437.html","FK/SB",NA
+"CH","CH",2020-03-13,"restaurants, nightclubs and bars cannot host more than 50 persons","retailgastro",1,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78437.html","FK/SB",NA
+"CH","CH",2020-03-14,"the use of eye protective gear is recommended","recommendations",1,NA,"FK",NA
+"CH","CH",2020-03-14,"the use of surgical masks is recommended for all medical and care personel","recommendations",1,NA,"FK",NA
+"CH","CH",2020-03-14,"the use of FFP2/FFP3 masks is recommended for all procedures with risk of areosol formation","recommendations",1,NA,"FK",NA
+"CH","CH",2020-03-14,"the use of surgical masks is not recommended for the population","recommendations",1,NA,"FK",NA
+"CH","CH",2020-03-16,"school closure","schools",1,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78437.html","FK/SB",NA
+"CH","CH",2020-03-16,"closure of universities","universities",1,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78437.html","FK/SB",NA
+"CH","CH",2020-03-16,"restrition of incoming cross-border mobility for selected countries","mobilityint",1,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78481.html","FK",NA
+"CH","CH",2020-03-17,"closure of public institutions (museums)","publicplaces",1,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78454.html","FK/SB",NA
+"CH","CH",2020-03-16,"explicit social distancing recommended (stay at home policy)","stayathome",1,NA,"FK/SB",NA
+"CH","CH",2020-03-17,"closure of non-essential stores and private entertainment institutions, skiing resort, swimming pools, and establishments with close contact","retailgastro",2,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78454.html","FK",NA
+"CH","CH",2020-03-19,"SBB greatly reduces train services","publictransport",1,NA,"FK/SB",NA
+"CH","CH",2020-03-20,"ban of gatherings of more than 5 people","events",6,"https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen/bundesrat.msg-id-78513.html","FK",NA
