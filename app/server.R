@@ -10,12 +10,12 @@
 library(shiny)
 library(ggplot2)
 
-data <- read.csv("../measures_CH.csv", stringsAsFactors = FALSE)
+data <- read.csv("https://raw.githubusercontent.com/jbracher/covid-2019-measures/master/measures_CH.csv", stringsAsFactors = FALSE)
 data$date <- as.Date(data$date)
 cantons <- sort(unique(data$unit))
 
 
-details <- read.csv("../measures_detailed_CH.csv", na = "", stringsAsFactors = FALSE)
+details <- read.csv("https://raw.githubusercontent.com/jbracher/covid-2019-measures/master/measures_detailed_CH.csv", na = "", stringsAsFactors = FALSE)
 details$unit <- gsub(x = details$unit, pattern = "CH-", replacement = "") # re-code unit
 details$date <- as.Date(details$date)
 categories <- unique(details$category)
