@@ -3,7 +3,7 @@
 ## Introduction
 Since February 25, 2020 Switzerland has been affected by COVID-19. Modelling predictions show that this pandemic will not stop on its own and that stringent migitation strategies are needed. Switzerland has implemented a series of measures both at cantonal and federal level. The aim of this project is to collect and categorize these control measures and create a continuously updated data set, which can be used for modelling or visualization purposes. Please cite the [DOI](https://doi.org/10.5281/zenodo.3749747) if you use this dataset. 
 
-This project is a collaborative effort by volunteers (see contributors below). The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (https://twitter.com/FabiKrauer).  
+This project is a collaborative effort by volunteers (see contributors below). The repository is open to contribution, please open an issue if you want to become a collaborator.  
 
 ## Methods
 
@@ -41,10 +41,10 @@ You are free to use these data under the CC-BY-NC creative commons license. Plea
 - Raw data are collected in Google Sheets (access restricted to collaborators, get in touch if you want to contribute). Here, each row corresponds to one interention in one canton or the whole of Switzerland.
 - The script `code/pull_data_from_drive.R` collects the data from the Google sheets, updates the csv files in your local `data` folder and the pooled data set `measures_detailed_CH.csv`. Note that access is again limited to collaborators. If you just want to use the data please download them from this repository.
 - The script `code/reformat_data.R` generates the more parsimonious version `measures_CH.csv` from `measures_detailed_CH.csv`.
-- All updated csv files can then be committed and pushed to github (if necessary add a new `measures_CH_2020-XX-XX.csv` fiel manually).
+- All updated csv files can then be committed and pushed to github (if necessary add a new `measures_CH_2020-XX-XX.csv` file manually).
 
 ## Disclaimer
-It is possible that some measures are missing because they were not communicated explicitly on the websites of the cantonal administrations. If you spot an error or want to make a suggestion for adding data, please contact us. 
+It is possible that some measures are missing because they were not communicated explicitly on the websites of the cantonal administrations. If you spot an error or want to make a suggestion for adding data, please open an issue. 
 
 ## Contributors
 - [Simone Baffelli](https://github.com/baffelli)
