@@ -1,7 +1,7 @@
 # Collecting and encoding the measures taken against the spread of COVID2019 in Switzerland
 
 ## Introduction
-Since February 25, 2020 Switzerland is affected by COVID-19. Modelling predictions show that this pandemic will not stop on its own and that stringent migitation strategies are needed. Switzerland has implemented a series of measures both at cantonal and federal level. The aim of this project is to collect and categorize these control measures implemented and provide an updated data set, which can be used for modelling or visualization purposes. Please cite the [DOI](https://doi.org/10.5281/zenodo.3749747) if you use this dataset. 
+Since February 25, 2020 Switzerland has been affected by COVID-19. Modelling predictions show that this pandemic will not stop on its own and that stringent migitation strategies are needed. Switzerland has implemented a series of measures both at cantonal and federal level. The aim of this project is to collect and categorize these control measures and create a continuously updated data set, which can be used for modelling or visualization purposes. Please cite the [DOI](https://doi.org/10.5281/zenodo.3749747) if you use this dataset. 
 
 This project is a collaborative effort by volunteers (see contributors below). The repository is open to contribution, contact Simone Baffelli (https://twitter.com/bafe) or Fabienne Krauer (https://twitter.com/FabiKrauer).  
 
@@ -28,20 +28,20 @@ We consider the following measures:
 | schools         | 0=no restriction, 1=closed                                                                                                                                                                              | includes primary and secondary school as well as Kindergarten                                                                                                     |
 | universities    | 0=no restriction, 1=closed                                                                                                                                                                              |                                                                                                                                                                   |
 
-The data are collected in a Google spreadsheet and updated periodically. The files are available for download in this github with the date indicating the last update. 
+The data are collected in a Google spreadsheet and updated periodically. The files are available for download from this repository with the date indicating the last update (file names `measures_CH_2020-XX-XX.csv`). The file `measures_CH_2020.csv` is the most recent version of the data as it is collected, but it may not be equally complete for all cantons. The file `measures_detailed_CH.csv` contains more details on the collected interventions, notably URL links to the respective cantonal or federal press releases.
 
 ## Results
-For a visualization of the measures until 2020-06-04, see [here](https://fkrauer.github.io/covid-measures/).
+For a visualization of the measures until 2020-06-04, see [here](https://fkrauer.github.io/covid-measures/). There is also a (simple) [R Shiny app](https://jobrac.shinyapps.io/app_covid_measures_ch/) with visualizations and links to the press releases underlying the presented data.
 
 ## Data usage
 You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
 
-## Workflow
+## Workflow for colaborators
 
-- Raw data are collected in Google Sheets [here](https://drive.google.com/drive/folders/1BrdACHo19f_Q-b2aEU3ZlwwKb68VYPGj) (access restricted to collaborators, get in touch if you want to contribute). Here, each row corresponds to one interention in one canton or the whole of Switzerland.
-- The script `code/pull_data_from_drive.R` collects the data from the Google sheets, updates the csv files in your local `data` folder and the pooled data set `measures_detailed_CH.csv`. Again, you need access to our Google Drive.
+- Raw data are collected in Google Sheets (access restricted to collaborators, get in touch if you want to contribute). Here, each row corresponds to one interention in one canton or the whole of Switzerland.
+- The script `code/pull_data_from_drive.R` collects the data from the Google sheets, updates the csv files in your local `data` folder and the pooled data set `measures_detailed_CH.csv`. Note that access is again limited to collaborators. If you just want to use the data please download them from this repository.
 - The script `code/reformat_data.R` generates the more parsimonious version `measures_CH.csv` from `measures_detailed_CH.csv`.
-- All updated csv files can then be committed and pushed to github.
+- All updated csv files can then be committed and pushed to github (if necessary add a new `measures_CH_2020-XX-XX.csv` fiel manually).
 
 ## Disclaimer
 It is possible that some measures are missing because they were not communicated explicitly on the websites of the cantonal administrations. If you spot an error or want to make a suggestion for adding data, please contact us. 
@@ -54,6 +54,13 @@ It is possible that some measures are missing because they were not communicated
 - [Muriel Buri](https://github.com/mrllynn)
 - [Nicolo Lardelli](https://www.researchgate.net/profile/Nicolo_Lardelli)
 - [Jonas Oesch](https://github.com/jonasoesch)
+
+
+## Related projects 
+- collection of data on the number of confirmed cases and on the number of performed tests, patients with severe disease progression and number of recovered patients.  This is part of another [challenge](https://db.schoolofdata.ch/project/73) of this hackathon. This data can be considered the *dependent variable* and can be used directly (with the usual caveats regarding specificity, sensitivity, sampling bias etc.) to measure the effect of the measures.
+- collection of data on [mobility](https://db.schoolofdata.ch/project/66), [air quality](https://db.schoolofdata.ch/project/63), mobile phone location data (eg https://github.com/statistikZH/monitoring_covid19/blob/master/Mobility_GooglePopularTimeGraph.md) and data on [consumer behavior](https://db.schoolofdata.ch/project/62). This information doesn't directly correlate with case data, however it can be used to infer the adhesion of the general population to the imposed measures regardless of their disease status.
+
+
 
 
 ## ARCHIVED: Raw initial data collection
@@ -105,8 +112,3 @@ The measurements have the following subcategories:
 | public institution access  | closure of universities                       |                                                                                                                             | Swiss Epidemics Act, Art. 40, 2b              |
 | public institution access  | restriction of access to short- and long-term care facilites       | Including hospitals, nursing homes, rehabilitation centers and disabled homes                                               | Swiss Epidemics Act, Art. 40, 2b, Art. 19, 2d |
 | recommendation_information            |                                                                    | Including information campaigns and recommendations for hand washing, respiratory hygiene and physical distancing, establishment of hotlines           |                         
-
-## Related projects 
-- collection of data on the number of confirmed cases and on the number of performed tests, patients with severe disease progression and number of recovered patients.  This is part of another [challenge](https://db.schoolofdata.ch/project/73) of this hackathon. This data can be considered the *dependent variable* and can be used directly (with the usual caveats regarding specificity, sensitivity, sampling bias etc.) to measure the effect of the measures.
-- collection of data on [mobility](https://db.schoolofdata.ch/project/66), [air quality](https://db.schoolofdata.ch/project/63), mobile phone location data (eg https://github.com/statistikZH/monitoring_covid19/blob/master/Mobility_GooglePopularTimeGraph.md) and data on [consumer behavior](https://db.schoolofdata.ch/project/62). This information doesn't directly correlate with case data, however it can be used to infer the adhesion of the general population to the imposed measures regardless of their disease status.
-
