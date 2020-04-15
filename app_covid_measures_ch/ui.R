@@ -20,10 +20,10 @@ shinyUI(fluidPage(
   mainPanel(
     hr(),
     tags$div(class="header", checked=NA,
-             tags$p("This Shiny app provides an interactive display of the data set on COVID19 intervention measures in Switzerland provided and described",
-                    tags$a(href = "https://github.com/baffelli/covid-2019-measures", "here"),
-                    "To see the details (incl. a link to the respective source) for a specific canton and day click into the plot."),
-             tags$p("This is work and progress as we will be update and complete the data over the coming weeks.")
+             tags$p("This R Shiny app provides an interactive display of the data set on COVID19 intervention measures in Switzerland provided and described",
+                    tags$a(href = "https://github.com/baffelli/covid-2019-measures", "here."),
+                    "For details on a specific canton and day (incl. links to the respective press releases) click into the plot."),
+             tags$p("This is work in progress and we will be updating and completing these data over the coming weeks.")
     ),
     hr(),
     selectInput("category", label = "Choose category of intervantion:",
