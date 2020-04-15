@@ -33,6 +33,7 @@ The data are collected in a Google spreadsheet and updated periodically. The fil
 ## Results
 For a visualization of the measures until 2020-06-04, see [here](https://fkrauer.github.io/covid-measures/). There is also a (simple) [R Shiny app](https://jobrac.shinyapps.io/app_covid_measures_ch/) with visualizations and links to the press releases underlying the presented data.
 
+
 ## Data usage
 You are free to use these data under the CC-BY-NC creative commons license. Please cite this project whenever you use the data. 
 
