@@ -1,0 +1,8 @@
+"country","unit","date","measure","category","new_val","source","entered_by","reviewed_by"
+"CH","CH-OW",2020-02-28,"ban of events / mass gatherings of > 1000 persons","events",1,"https://www.ow.ch/dl.php/de/5e61f128a416a/BAG_Kriterien_Veranstaltungen_d.pdf","MB","FK"
+"CH","CH-OW",2020-03-10,"Contact management for confirmed cases","casemanagement",1,"https://www.ow.ch/dl.php/de/5e6798a0b01ce/GA_OW_Coronavirus_Empfehlungen_Schulen_Kitas_Firmen_2020-03-10.pdf","MB","FK"
+"CH","CH-OW",2020-03-10,"Information sheet for contact persons: Instructions for the inactivation of corona viruses on surfaces","casemanagement",1,"https://www.ow.ch/dl.php/de/5e679b5f67864/GA_OW_Coronavirus_Merkblatt_Kontaktpersonen_Haushalt_Oberflaechen_2020-03-10.PDF","MB","FK"
+"CH","CH-OW",2020-03-13,"Restrictions on visits to homes and the cantonal hospital","carefacilities",2,"https://www.ow.ch/dl.php/de/5e6befbb4b83e/MM_STK_Coronavirus_Covid-Verordnung_Bund.pdf","MB","FK"
+"CH","CH-OW",2020-03-13,"Ban on events with more than 100 participants","events",3,"https://www.ow.ch/dl.php/de/5e6befbb4b83e/MM_STK_Coronavirus_Covid-Verordnung_Bund.pdf","MB","FK"
+"CH","CH-OW",2020-03-16,"Obwalden schools remain closed until the end of the Easter holidays","schools",1,"https://www.ow.ch/dl.php/de/5e6fb0de5e039/20-15_MM_RR_Coronavirus.pdf","MB","FK"
+"CH","CH-OW",2020-03-13,"First case tested positive","casemanagement",1,"https://www.ow.ch/de/aktuelles/aktuellesinformationen/?action=showinfo&info_id=63566","FK","FK"

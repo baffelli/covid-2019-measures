@@ -1,0 +1,5 @@
+"country","unit","date","measure","category","new_val","source","entered_by","reviewed_by"
+"CH","CH-ZH",2020-03-17,"ban on hospital and retirement home visits","carefacilities",2,NA,"SB","FK"
+"CH","CH-ZH",2020-03-17,"special precautions (bodybag) during the burial of covid2019 patients","casemanagement",1,NA,"SB","FK"
+"CH","CH-ZH",2020-03-19,"reduction of public transport","publictransport",1,"https://www.zh.ch/internet/de/aktuell/news/medienmitteilungen/2020/coronavirus-weitere-angebotsreduktionen-im-zvv-gebiet.html","FK","FK"
+"CH","CH-ZH",2020-02-27,"first case tested positive","casemanagement",1,"https://www.zh.ch/internet/de/aktuell/news/medienmitteilungen/2020/coronavirus-erster-fall-im-kanton-zuerich.html","FK","FK"
